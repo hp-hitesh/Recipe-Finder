@@ -5,8 +5,8 @@ function App() {
   const [ingredientList, updateIngredientList]= useState([]);
   const [loading, setLoading] = useState(false);
   const inputRef  = useRef(null);
-  const API_KEY = "29904352799874718cddacd6f77be909";
-  const APP_ID  = "6a43a79b";
+  const API_KEY = "enter api key here";
+  const APP_ID  = "enter app id here";
 
   const search = ()=>{
     //console.log(inputRef);
